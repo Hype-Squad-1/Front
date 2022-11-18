@@ -24,12 +24,16 @@ const globalStyle = createGlobalStyle`
 }
 
 * {
- /* border: 2px solid green; */
+    /* border: 2px solid green; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--fontFamily-Montserrat);
+    font-weight: 400;
+    color: black;
 }
 
 body {}
